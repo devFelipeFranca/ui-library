@@ -1,0 +1,24 @@
+{
+	"size": {
+		"sm": { "value": "12px" },
+		"md": { "value": "16px" },
+		"lg": { "value": "20px" },
+		"xl": { "value": "24px" },
+		"xxl": { "value": "32px" }
+	},
+	"weight": {
+		"light": { "value": "300" },
+		"regular": { "value": "400" },
+		"medium": { "value": "500" },
+		"bold": { "value": "700" }
+	},
+	"lineHeight": {
+		"sm": { "value": "1.2" },
+		"md": { "value": "1.4" },
+		"lg": { "value": "1.6" },
+		"xl": { "value": "1.8" },
+		"xxl": { "value": "2.0" }
+	}
+}
+
+
