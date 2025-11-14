@@ -1,19 +1,13 @@
 import React from "react";
-import { style } from "@vanilla-extract/css";
-
-const button = style({
-  backgroundColor: "bg-background-default",
-  color: "text-primary-main",
-  padding: "p-md p-lg",
-  borderRadius: "rounded-md",
-  fontWeight: "font-weight-medium",
-  ":hover": { opacity: 0.9 },
-});
 
 export interface ButtonProps {
   children: React.ReactNode;
 }
 
-export function Button({ children }: React.PropsWithChildren<ButtonProps>) {
-  return <button className={button}>{children}</button>;
+export function Button({ children }: ButtonProps) {
+  return (
+    <button className="bg-background-default text-primary-main p-md p-lg rounded-md font-weight-medium border border-gray-100 cursor-pointer">
+      {children}
+    </button>
+  );
 }
